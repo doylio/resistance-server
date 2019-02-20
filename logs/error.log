@@ -1,0 +1,24 @@
+Tue Feb 19 2019 14:41:18 GMT-0500 (Eastern Standard Time): POST /user
+MongoError: E11000 duplicate key error collection: Resistance-Testing.users index: name_1 dup key: { : "Aragorn" }
+
+Tue Feb 19 2019 15:27:37 GMT-0500 (Eastern Standard Time): POST /user
+MongoError: E11000 duplicate key error collection: Resistance-Testing.users index: name_1 dup key: { : "Devin" }
+
+Tue Feb 19 2019 15:28:29 GMT-0500 (Eastern Standard Time): POST /user
+MongoError: E11000 duplicate key error collection: Resistance-Testing.users index: name_1 dup key: { : "Devin" }
+
+Tue Feb 19 2019 15:28:30 GMT-0500 (Eastern Standard Time): POST /user
+MongoError: E11000 duplicate key error collection: Resistance-Testing.users index: name_1 dup key: { : "Devin" }
+
+Tue Feb 19 2019 15:42:51 GMT-0500 (Eastern Standard Time): POST /user
+ValidationError: name: Path `name` is required.
+
+Tue Feb 19 2019 15:43:57 GMT-0500 (Eastern Standard Time): POST /user
+MongoError: E11000 duplicate key error collection: Resistance-Testing.users index: name_1 dup key: { : "Harry Potter" }
+
+Tue Feb 19 2019 15:43:57 GMT-0500 (Eastern Standard Time): POST /user
+ValidationError: name: Path `name` is required.
+
+Tue Feb 19 2019 19:00:30 GMT-0500 (Eastern Standard Time): POST /user
+MongoError: E11000 duplicate key error collection: Resistance.users index: name_1 dup key: { : "Devin" }
+

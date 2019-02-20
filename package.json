@@ -1,0 +1,37 @@
+{
+  "name": "resistance-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "export NODE_ENV=test || SET \"NODE_ENV=test\" && mocha --timeout 15000 tests/*.test.js",
+    "test-watch": "nodemon --exec \"npm run test\"",
+    "start": "node index.js",
+    "watch": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shawndoyle/resistance-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shawndoyle/resistance-server/issues"
+  },
+  "homepage": "https://github.com/shawndoyle/resistance-server#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.4.13"
+  },
+  "devDependencies": {
+    "expect": "^24.1.0",
+    "mocha": "^6.0.0",
+    "nodemon": "^1.18.10",
+    "supertest": "^3.4.2"
+  }
+}
